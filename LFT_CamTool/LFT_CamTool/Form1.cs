@@ -16,7 +16,7 @@ namespace LFT_CamTool
     
     public partial class Form1 : Form
     {
-        qwertz testclass = new qwertz();
+      // qwertz testclass = new qwertz();
 
         Camera.FTDI_Init CamControl = new Camera.FTDI_Init();
         

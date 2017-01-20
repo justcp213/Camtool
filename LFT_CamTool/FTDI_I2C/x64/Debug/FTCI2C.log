@@ -1,0 +1,55 @@
+﻿FTCI2C.obj : warning LNK4197: Export "I2C_GetNumDevices" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_GetNumHiSpeedDevices" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_GetDeviceNameLocID" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_GetHiSpeedDeviceNameLocIDChannel" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_Open" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_OpenEx" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_OpenHiSpeedDevice" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_GetHiSpeedDeviceType" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_Close" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_CloseDevice" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_InitDevice" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_TurnOnDivideByFiveClockingHiSpeedDevice" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_TurnOffDivideByFiveClockingHiSpeedDevice" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_TurnOnThreePhaseDataClockingHiSpeedDevice" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_TurnOffThreePhaseDataClockingHiSpeedDevice" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_SetDeviceLatencyTimer" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_GetDeviceLatencyTimer" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_GetClock" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_GetHiSpeedDeviceClock" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_SetClock" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_SetLoopback" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_SetMode" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_SetGPIOs" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_SetHiSpeedDeviceGPIOs" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_GetGPIOs" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_GetHiSpeedDeviceGPIOs" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_Write" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_Read" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_GetDllVersion" wurde mehrmals angegeben; erste Angabe wird verwendet.
+FTCI2C.obj : warning LNK4197: Export "I2C_GetErrorCodeString" wurde mehrmals angegeben; erste Angabe wird verwendet.
+     Bibliothek "x64\Debug\FTCI2C.lib" und Objekt "x64\Debug\FTCI2C.exp" werden erstellt.
+FT2232c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_OpenEx" in Funktion ""protected: unsigned long __cdecl FT2232c::FTC_OpenSpecifiedDevice(char *,unsigned long,unsigned long *)" (?FTC_OpenSpecifiedDevice@FT2232c@@IEAAKPEADKPEAK@Z)".
+FT2232h.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp_FT_OpenEx".
+FT2232c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_Close" in Funktion ""protected: unsigned long __cdecl FT2232c::FTC_CloseDevice(unsigned long)" (?FTC_CloseDevice@FT2232c@@IEAAKK@Z)".
+FT2232h.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp_FT_Close".
+FT2232c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_Read" in Funktion ""protected: unsigned long __cdecl FT2232c::FTC_ReadBytesFromDevice(unsigned long,unsigned char (*)[131071],unsigned long,unsigned long *)" (?FTC_ReadBytesFromDevice@FT2232c@@IEAAKKPEAY0BPPPP@EKPEAK@Z)".
+FT2232c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_Write" in Funktion ""protected: unsigned long __cdecl FT2232c::FTC_SendBytesToDevice(unsigned long)" (?FTC_SendBytesToDevice@FT2232c@@IEAAKK@Z)".
+FT2232c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_ResetDevice" in Funktion ""protected: unsigned long __cdecl FT2232c::FTC_ResetUSBDevicePurgeUSBInputBuffer(unsigned long)" (?FTC_ResetUSBDevicePurgeUSBInputBuffer@FT2232c@@IEAAKK@Z)".
+FT2232c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_SetChars" in Funktion ""protected: unsigned long __cdecl FT2232c::FTC_SetDeviceSpecialCharacters(unsigned long,unsigned char,unsigned char,unsigned char,unsigned char)" (?FTC_SetDeviceSpecialCharacters@FT2232c@@IEAAKKEEEE@Z)".
+FT2232c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_SetTimeouts" in Funktion ""protected: unsigned long __cdecl FT2232c::FTC_SetReadWriteDeviceTimeouts(unsigned long,unsigned long,unsigned long)" (?FTC_SetReadWriteDeviceTimeouts@FT2232c@@IEAAKKKK@Z)".
+FT2232c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_GetQueueStatus" in Funktion ""protected: unsigned long __cdecl FT2232c::FTC_ResetUSBDevicePurgeUSBInputBuffer(unsigned long)" (?FTC_ResetUSBDevicePurgeUSBInputBuffer@FT2232c@@IEAAKK@Z)".
+FT2232hMpsseI2c.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp_FT_GetQueueStatus".
+FT2232c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_SetLatencyTimer" in Funktion ""protected: unsigned long __cdecl FT2232c::FTC_SetDeviceLatencyTimer(unsigned long,unsigned char)" (?FTC_SetDeviceLatencyTimer@FT2232c@@IEAAKKE@Z)".
+FT2232c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_GetLatencyTimer" in Funktion ""protected: unsigned long __cdecl FT2232c::FTC_GetDeviceLatencyTimer(unsigned long,unsigned char *)" (?FTC_GetDeviceLatencyTimer@FT2232c@@IEAAKKPEAE@Z)".
+FT2232c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_SetBitMode" in Funktion ""protected: unsigned long __cdecl FT2232c::FTC_ResetMPSSEInterface(unsigned long)" (?FTC_ResetMPSSEInterface@FT2232c@@IEAAKK@Z)".
+FT2232c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_SetUSBParameters" in Funktion ""protected: unsigned long __cdecl FT2232c::FTC_SetDeviceUSBBufferSizes(unsigned long,unsigned long,unsigned long)" (?FTC_SetDeviceUSBBufferSizes@FT2232c@@IEAAKKKK@Z)".
+FT2232c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_CreateDeviceInfoList" in Funktion ""protected: unsigned long __cdecl FT2232c::FTC_GetNumDevices(unsigned long *,unsigned long (*)[50])" (?FTC_GetNumDevices@FT2232c@@IEAAKPEAKPEAY0DC@K@Z)".
+FT2232h.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp_FT_CreateDeviceInfoList".
+FT2232c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_GetDeviceInfoList" in Funktion ""protected: unsigned long __cdecl FT2232c::FTC_GetNumDevices(unsigned long *,unsigned long (*)[50])" (?FTC_GetNumDevices@FT2232c@@IEAAKPEAKPEAY0DC@K@Z)".
+FT2232h.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp_FT_GetDeviceInfoList".
+FT2232c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_GetDeviceInfoDetail" in Funktion ""private: unsigned long __cdecl FT2232c::FTC_IsDeviceNameLocationIDValid(char *,unsigned long)" (?FTC_IsDeviceNameLocationIDValid@FT2232c@@AEAAKPEADK@Z)".
+FT2232h.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp_FT_GetDeviceInfoDetail".
+FT2232h.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp_FT_GetDeviceInfo" in Funktion ""protected: unsigned long __cdecl FT2232h::FTC_IsDeviceHiSpeedType(unsigned long,int *)" (?FTC_IsDeviceHiSpeedType@FT2232h@@IEAAKKPEAH@Z)".
+ftd2xx.lib : warning LNK4272: Bibliothekcomputertyp "X86" steht in Konflikt mit dem Zielcomputertyp "x64"
+x64\Debug\FTCI2C.dll : fatal error LNK1120: 16 nicht aufgelöste Externe

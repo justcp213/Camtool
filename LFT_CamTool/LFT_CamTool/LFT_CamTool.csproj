@@ -37,7 +37,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <WarningLevel>3</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -140,13 +140,13 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FTDI_I2C\FTDI_I2C.vcxproj">
+      <Project>{e26ae021-a9b3-48c8-9336-f0596970a888}</Project>
+      <Name>FTDI_I2C</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FTPASKALI\FTPASKALI.csproj">
       <Project>{0a8a63d6-3508-488d-9b39-df907b51cf4d}</Project>
       <Name>FTPASKALI</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\chramas_p\Downloads\FTDI Treiber\FTCI2C_Source\FTCI2C_Source\FTCI2C.vcxproj">
-      <Project>{e26ae021-a9b3-48c8-9336-f0596970a888}</Project>
-      <Name>FTCI2C</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
