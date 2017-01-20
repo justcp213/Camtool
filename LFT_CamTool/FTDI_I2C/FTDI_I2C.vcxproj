@@ -214,7 +214,6 @@
     <ClCompile Include="FT2232h.cpp" />
     <ClCompile Include="FT2232hMpsseI2c.cpp" />
     <ClCompile Include="FTCI2C.cpp" />
-    <ClCompile Include="Interface.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
