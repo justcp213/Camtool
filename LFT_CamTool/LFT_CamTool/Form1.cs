@@ -39,7 +39,7 @@ namespace LFT_CamTool
                CamControl.TestFunktionen();
                CamControl.ftdipaskali();
             CamControl.NET_LIB_OPENBYINDEX();
-           // Set_DLLVersionStatus();
+            // Set_DLLVersionStatus();
             //Get_NumberofDevices();
             CamControl.GetHiSpeedDeviceInfo();
 

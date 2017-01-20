@@ -44,17 +44,6 @@ static FT2232hMpsseI2c *pFT2232hMpsseI2c = NULL;
 
 
 
-public ref class qwertz
-{
-	// TODO: Die Methoden für diese Klasse hier hinzufügen.
-
-public:
-	int return_value(void) {
-
-		return 5;
-	};
-
-};
 
 
 	BOOL APIENTRY DllMain(HANDLE hModule,

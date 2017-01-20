@@ -1,0 +1,38 @@
+; FTDI_I2C.def : Declares the module parameters for the DLL.
+; 01/08/08    kra     Added new functions for FT2232H and FT4232H hi-speed devices
+; 20/08/08    kra     Added new function I2C_CloseDevice
+
+LIBRARY	"FTDI_I2C"
+
+EXPORTS
+  I2C_GetNumDevices									@1
+  I2C_GetDeviceNameLocID							@2
+  I2C_OpenEx										@3
+  I2C_Open											@4
+  I2C_Close											@5
+  I2C_InitDevice									@6
+  I2C_GetClock										@7
+  I2C_SetClock										@8
+  I2C_SetLoopback									@9
+  I2C_Write											@10
+  I2C_Read											@11
+  I2C_GetDllVersion									@12
+  I2C_GetErrorCodeString							@13
+  I2C_SetMode										@14
+  I2C_SetGPIOs										@15
+  I2C_GetGPIOs										@16
+  I2C_GetNumHiSpeedDevices							@17
+  I2C_GetHiSpeedDeviceNameLocIDChannel				@18
+  I2C_OpenHiSpeedDevice								@19
+  I2C_GetHiSpeedDeviceType							@20
+  I2C_TurnOnDivideByFiveClockingHiSpeedDevice		@21
+  I2C_TurnOffDivideByFiveClockingHiSpeedDevice		@22
+  I2C_TurnOnThreePhaseDataClockingHiSpeedDevice		@23
+  I2C_TurnOffThreePhaseDataClockingHiSpeedDevice	@24
+  I2C_SetDeviceLatencyTimer							@25
+  I2C_GetDeviceLatencyTimer							@26
+  I2C_GetHiSpeedDeviceClock							@27
+  I2C_SetHiSpeedDeviceGPIOs							@28
+  I2C_GetHiSpeedDeviceGPIOs							@29
+  I2C_CloseDevice									@30
+

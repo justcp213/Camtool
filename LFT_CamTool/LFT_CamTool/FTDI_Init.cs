@@ -25,44 +25,44 @@ namespace Camera
 
         #region LOAD_LIBRARIES
 
-        [DllImportAttribute("ftci2c.dll", EntryPoint = "I2C_GetDllVersion")]
+        [DllImportAttribute("FTDI_I2C.dll", EntryPoint = "I2C_GetDllVersion")]
         static extern FTC_STATUS GetDllVersion(byte[] pDllVersion, uint buufferSize);
 
-        [DllImportAttribute("ftci2c.dll", EntryPoint = "I2C_GetNumHiSpeedDevices")]
+        [DllImportAttribute("FTDI_I2C.dll", EntryPoint = "I2C_GetNumHiSpeedDevices")]
         static extern FTC_STATUS I2C_GetNumHiSpeedDevices(ref uint NumDevices);
 
-        [DllImportAttribute("ftci2c.dll")]
+        [DllImportAttribute("FTDI_I2C.dll")]
         static extern FTC_STATUS I2C_OpenHiSpeedDevice( string devname, uint locationID, 
                                                   string channel,  ref IntPtr pftHandle);
-        [DllImportAttribute("ftci2c.dll")]
+        [DllImportAttribute("FTDI_I2C.dll")]
         static extern int MeineTestFunktion();
 
-        [DllImportAttribute("ftci2c.dll")]
+        [DllImportAttribute("FTDI_I2C.dll")]
         static extern FTC_STATUS I2C_GetHiSpeedDeviceNameLocIDChannel(uint deviceNameIndex, byte[] pDeviceName, 
                                                                 uint deviceNameBufferSize, ref uint locationID, byte[] pChannel,
                                                                 uint channelBufferSize, ref uint hiSpeedDeviceType);
-        [DllImportAttribute("ftci2c.dll")]
+        [DllImportAttribute("FTDI_I2C.dll")]
         static extern FTC_STATUS I2C_GetNumDevices(ref LPDWORD NumDevices);
 
-        [DllImportAttribute("ftci2c.dll")]
+        [DllImportAttribute("FTDI_I2C.dll")]
         static extern FTC_STATUS I2C_GetDllVersion(byte[] Versionbuffer, DWORD dwBufferSize);
 
-        [DllImportAttribute("ftci2c.dll")]
+        [DllImportAttribute("FTDI_I2C.dll")]
         static extern FTC_STATUS I2C_Open(ref IntPtr ftHandle);
 
-        [DllImportAttribute("ftci2c.dll")]
+        [DllImportAttribute("FTDI_I2C.dll")]
         static extern FTC_STATUS I2C_InitDevice(ref IntPtr ftHandle, DWORD Clockdivisor);
 
-        [DllImportAttribute("ftci2c.dll")]
+        [DllImportAttribute("FTDI_I2C.dll")]
         static extern FTC_STATUS ftdi_Open(int devicenumber, ref IntPtr ftHandle);
 
-        [DllImportAttribute("ftci2c.dll")]
+        [DllImportAttribute("FTDI_I2C.dll")]
         static extern FTC_STATUS ftdi_GetDriverVersion(IntPtr handle, ref LPDWORD Version);
 
-        [DllImportAttribute("ftci2c.dll")]
+        [DllImportAttribute("FTDI_I2C.dll")]
         static extern FTC_STATUS ftdi_Close(IntPtr ftHandle);
 
-        [DllImportAttribute("ftci2c.dll")]
+        [DllImportAttribute("FTDI_I2C.dll")]
         static extern FTC_STATUS ftdi_OpenEx(string arg1 , ref IntPtr ftHandle);
 
       //  [DllImportAttribute("ftci2c.dll")]
@@ -88,8 +88,11 @@ namespace Camera
             FTC_HANDLE ftHandle = 0;
             IntPtr handle = IntPtr.Zero;
             uint NumDevice = 0;
-
             
+            //qwertz newclass = new qwertz();
+            //Wirft Fehlermeldung aus:
+            //System.IO.FileLoadException: Die Datei oder Assembly "FTDI_I2C, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" oder eine Abhängigkeit davon wurde nicht gefunden. Die gefundene Manifestdefinition der Assembly stimmt nicht mit dem Assemblyverweis überein. (Ausnahme von HRESULT: 0x80131040)
+            //bei Camera.FTDI_Init.TestFunktionen()
 
 
             FTDI paskali = new FTDI();

@@ -9,3 +9,4 @@
 \\merkator.local\hund\User\Chramas_P\Eigene Dateien\Visual Studio 2015\Projects\Camtool\LFT_CamTool\FTPASKALI\bin\Debug\FTPASKALI.pdb
 \\merkator.local\hund\User\Chramas_P\Eigene Dateien\Visual Studio 2015\Projects\Camtool\LFT_CamTool\FTPASKALI\obj\Debug\FTPASKALI.dll
 \\merkator.local\hund\User\Chramas_P\Eigene Dateien\Visual Studio 2015\Projects\Camtool\LFT_CamTool\FTPASKALI\obj\Debug\FTPASKALI.pdb
+\\merkator.local\hund\User\Chramas_P\Eigene Dateien\Visual Studio 2015\Projects\Camtool\LFT_CamTool\FTPASKALI\obj\Debug\FTPASKALI.csprojResolveAssemblyReference.cache
