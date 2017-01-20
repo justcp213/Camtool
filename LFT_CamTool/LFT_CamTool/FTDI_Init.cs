@@ -89,6 +89,9 @@ namespace Camera
             IntPtr handle = IntPtr.Zero;
             uint NumDevice = 0;
 
+            
+
+
             FTDI paskali = new FTDI();
             FTDI.FT_STATUS ftstats = new FTDI.FT_STATUS();
             //  Status = I2C_GetNumDevices(ref Num);

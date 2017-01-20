@@ -50,6 +50,12 @@
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>CB014731BE0C44E85A664B81B44DAF79E36B88CB</ManifestCertificateThumbprint>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="FTD2XX_NET, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -137,6 +143,10 @@
     <ProjectReference Include="..\FTPASKALI\FTPASKALI.csproj">
       <Project>{0a8a63d6-3508-488d-9b39-df907b51cf4d}</Project>
       <Name>FTPASKALI</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chramas_p\Downloads\FTDI Treiber\FTCI2C_Source\FTCI2C_Source\FTCI2C.vcxproj">
+      <Project>{e26ae021-a9b3-48c8-9336-f0596970a888}</Project>
+      <Name>FTCI2C</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

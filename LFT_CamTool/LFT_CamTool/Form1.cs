@@ -9,19 +9,25 @@ using System.Text;
 using System.Windows.Forms;
 using FTD2XXPASKALI;
 
+
+
 namespace LFT_CamTool
 {
+    
     public partial class Form1 : Form
     {
-        Camera.FTDI_Init CamControl = new Camera.FTDI_Init();
+        qwertz testclass = new qwertz();
 
+        Camera.FTDI_Init CamControl = new Camera.FTDI_Init();
+        
         public Form1()
         {
-
+            
             InitializeComponent();           
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-
             
+           // int x  = testclass.return_value();
+          //  Console.WriteLine("X: " + x);         
             
             
         }
@@ -37,7 +43,7 @@ namespace LFT_CamTool
             //Get_NumberofDevices();
             CamControl.GetHiSpeedDeviceInfo();
 
-            
+           
            
             
         }
