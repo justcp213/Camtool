@@ -222,6 +222,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram.cd" />
     <None Include="FTCI2C.def" />
   </ItemGroup>
   <ItemGroup>

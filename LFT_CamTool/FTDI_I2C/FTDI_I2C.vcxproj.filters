@@ -35,6 +35,7 @@
     <None Include="FTCI2C.def">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FT2232c.h">

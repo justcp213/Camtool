@@ -88,11 +88,14 @@ namespace Camera
             FTC_HANDLE ftHandle = 0;
             IntPtr handle = IntPtr.Zero;
             uint NumDevice = 0;
-            
+
             //qwertz newclass = new qwertz();
             //Wirft Fehlermeldung aus:
             //System.IO.FileLoadException: Die Datei oder Assembly "FTDI_I2C, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" oder eine Abhängigkeit davon wurde nicht gefunden. Die gefundene Manifestdefinition der Assembly stimmt nicht mit dem Assemblyverweis überein. (Ausnahme von HRESULT: 0x80131040)
             //bei Camera.FTDI_Init.TestFunktionen()
+
+           
+            
 
 
             FTDI paskali = new FTDI();

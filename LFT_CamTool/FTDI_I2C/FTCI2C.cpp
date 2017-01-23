@@ -28,28 +28,19 @@ Revision History:
 --*/
 
 #include "stdafx.h"
-
 #include <windows.h>
-
 #include "ftci2c.h"
-
 #include "ft2232hmpssei2c.h"
-
 #include "FTD2XX.H"
-
-static FT2232hMpsseI2c *pFT2232hMpsseI2c = NULL;
-
 #include "stdafx.h"
 #include <stdlib.h>
 
 
 
+static FT2232hMpsseI2c *pFT2232hMpsseI2c = NULL;
 
 
-	BOOL APIENTRY DllMain(HANDLE hModule,
-		DWORD  ul_reason_for_call,
-		LPVOID lpReserved
-	)
+	BOOL APIENTRY DllMain(HANDLE hModule,DWORD  ul_reason_for_call,LPVOID lpReserved)
 	{
 		switch (ul_reason_for_call)
 		{
@@ -62,7 +53,6 @@ static FT2232hMpsseI2c *pFT2232hMpsseI2c = NULL;
 		case DLL_THREAD_DETACH:
 			break;
 		case DLL_PROCESS_DETACH:
-			//pFT2232hMpsseI2c->~FT2232hMpsseI2c();
 			delete pFT2232hMpsseI2c;
 			break;
 		}
@@ -317,6 +307,7 @@ static FT2232hMpsseI2c *pFT2232hMpsseI2c = NULL;
 		return FT_GetDeviceInfoList(pDest, numdevs);
 
 	}
+
 
 
 //---------------------------------------------------------------------------

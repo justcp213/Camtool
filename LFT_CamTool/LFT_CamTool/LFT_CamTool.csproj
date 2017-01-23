@@ -143,6 +143,7 @@
     <ProjectReference Include="..\FTDI_I2C\FTDI_I2C.vcxproj">
       <Project>{e26ae021-a9b3-48c8-9336-f0596970a888}</Project>
       <Name>FTDI_I2C</Name>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </ProjectReference>
     <ProjectReference Include="..\FTPASKALI\FTPASKALI.csproj">
       <Project>{0a8a63d6-3508-488d-9b39-df907b51cf4d}</Project>
