@@ -1,8 +1,8 @@
-; FTCI2C.def : Declares the module parameters for the DLL.
+; FTDI_I2C.def : Declares the module parameters for the DLL.
 ; 01/08/08    kra     Added new functions for FT2232H and FT4232H hi-speed devices
 ; 20/08/08    kra     Added new function I2C_CloseDevice
 
-LIBRARY	"FTCI2C"
+LIBRARY	"FTDI_I2C"
 
 EXPORTS
   I2C_GetNumDevices									@1

@@ -82,20 +82,21 @@ namespace Camera
             LPDWORD Num = 0;
             FTC_STATUS Status;
             DWORD length = 10;
-            
-           
+
+
             DWORD Clockdivis = 0;
             FTC_HANDLE ftHandle = 0;
             IntPtr handle = IntPtr.Zero;
             uint NumDevice = 0;
 
-            //qwertz newclass = new qwertz();
-            //Wirft Fehlermeldung aus:
-            //System.IO.FileLoadException: Die Datei oder Assembly "FTDI_I2C, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" oder eine Abhängigkeit davon wurde nicht gefunden. Die gefundene Manifestdefinition der Assembly stimmt nicht mit dem Assemblyverweis überein. (Ausnahme von HRESULT: 0x80131040)
-            //bei Camera.FTDI_Init.TestFunktionen()
+            ////qwertz newclass = new qwertz();
+            ////Wirft Fehlermeldung aus:
+            ////System.IO.FileLoadException: Die Datei oder Assembly "FTDI_I2C, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" oder eine Abhängigkeit davon wurde nicht gefunden. Die gefundene Manifestdefinition der Assembly stimmt nicht mit dem Assemblyverweis überein. (Ausnahme von HRESULT: 0x80131040)
+            ////bei Camera.FTDI_Init.TestFunktionen()
 
-           
-            
+
+            testklasse newcLass = new testklasse();
+            int x = newcLass.returnvalue();
 
 
             FTDI paskali = new FTDI();
@@ -104,9 +105,9 @@ namespace Camera
             ftstats = paskali.GetDeviceList(DEVICEINFO);
             //Status = ftdi_GetDeviceInfoList(ref FT_DEVICE_LIST_INFO_NODE, ref NumDevice);
             Status = ftdi_OpenEx(DEVICEINFO[1].Description, ref handle);
-           // Status = ftdi_Open(0, ref handle);
+            // Status = ftdi_Open(0, ref handle);
 
-            
+
 
             Status = I2C_GetNumHiSpeedDevices(ref NumDevice);
             //  Status = ftdi_GetDriverVersion( handle, ref Num);
@@ -117,18 +118,18 @@ namespace Camera
             uint LocID = 0;
 
 
-           
-           
 
-            Status =  I2C_GetHiSpeedDeviceNameLocIDChannel(1, pDevicename, 100, ref LocID, pchannel, 5, ref hispeeddevtype);
+
+
+            Status = I2C_GetHiSpeedDeviceNameLocIDChannel(1, pDevicename, 100, ref LocID, pchannel, 5, ref hispeeddevtype);
 
             string devname = Encoding.ASCII.GetString(pDevicename);
             devname = devname.Substring(0, devname.IndexOf("\0"));
 
             string hispeedchannel = Encoding.ASCII.GetString(pchannel);
             hispeedchannel = hispeedchannel.Substring(0, hispeedchannel.IndexOf("\0"));
-            
-            Status = I2C_OpenHiSpeedDevice(devname, LocID , hispeedchannel, ref handle);
+
+            Status = I2C_OpenHiSpeedDevice(devname, LocID, hispeedchannel, ref handle);
             // devname ist ein char[] mit ""USB <-> Serial Converter A" Inhalt
             //LocID = 0
             //hispeedchannel char[5] mit inhalt "A"

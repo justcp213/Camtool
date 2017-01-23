@@ -1,2 +1,122 @@
-﻿     Bibliothek "\\merkator.local\hund\User\Chramas_P\Eigene Dateien\Visual Studio 2015\Projects\Camtool\LFT_CamTool\Debug\FTCI2C.lib" und Objekt "\\merkator.local\hund\User\Chramas_P\Eigene Dateien\Visual Studio 2015\Projects\Camtool\LFT_CamTool\Debug\FTCI2C.exp" werden erstellt.
+﻿  stdafx.cpp
+  FT2232c.cpp
+FT2232c.cpp(35): warning C4603: "WIO_DEFINED": Das Makro ist nicht definiert, oder die Definition wurde nach Verwendung des vorkompilierten Headers geändert.
+  FT2232c.cpp(35): note: Makro zu vorkompiliertem Header hinzufügen statt hier zu definieren
+  FT2232c.cpp(37): note: Verwendung eines vorkompilierten Headers
+FT2232c.cpp(178): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(603): note: Siehe Deklaration von "strupr"
+FT2232c.cpp(349): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: Siehe Deklaration von "strcpy"
+FT2232c.cpp(485): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: Siehe Deklaration von "strcpy"
+FT2232c.cpp(543): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: Siehe Deklaration von "strcpy"
+  FT2232h.cpp
+FT2232h.cpp(29): warning C4603: "WIO_DEFINED": Das Makro ist nicht definiert, oder die Definition wurde nach Verwendung des vorkompilierten Headers geändert.
+  FT2232h.cpp(29): note: Makro zu vorkompiliertem Header hinzufügen statt hier zu definieren
+  FT2232h.cpp(31): note: Verwendung eines vorkompilierten Headers
+FT2232h.cpp(175): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(603): note: Siehe Deklaration von "strupr"
+FT2232h.cpp(176): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(603): note: Siehe Deklaration von "strupr"
+FT2232h.cpp(370): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: Siehe Deklaration von "strcpy"
+FT2232h.cpp(373): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(603): note: Siehe Deklaration von "strupr"
+FT2232h.cpp(374): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(603): note: Siehe Deklaration von "strupr"
+FT2232h.cpp(378): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(603): note: Siehe Deklaration von "strupr"
+FT2232h.cpp(379): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: Siehe Deklaration von "strcpy"
+FT2232h.cpp(381): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: Siehe Deklaration von "strcpy"
+FT2232h.cpp(419): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(603): note: Siehe Deklaration von "strupr"
+FT2232h.cpp(549): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: Siehe Deklaration von "strcpy"
+  FT2232hMpsseI2c.cpp
+FT2232hMpsseI2c.cpp(31): warning C4603: "WIO_DEFINED": Das Makro ist nicht definiert, oder die Definition wurde nach Verwendung des vorkompilierten Headers geändert.
+  FT2232hMpsseI2c.cpp(31): note: Makro zu vorkompiliertem Header hinzufügen statt hier zu definieren
+  FT2232hMpsseI2c.cpp(33): note: Verwendung eines vorkompilierten Headers
+FT2232hMpsseI2c.cpp(1967): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: Siehe Deklaration von "strcpy"
+FT2232hMpsseI2c.cpp(1999): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: Siehe Deklaration von "strcpy"
+FT2232hMpsseI2c.cpp(2001): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: Siehe Deklaration von "strcpy"
+FT2232hMpsseI2c.cpp(2005): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: Siehe Deklaration von "strcpy"
+FT2232hMpsseI2c.cpp(2012): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+FT2232hMpsseI2c.cpp(2018): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: Siehe Deklaration von "strcpy"
+  FTCI2C.cpp
+FTCI2C.cpp(67): warning C4273: "I2C_GetNumDevices": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(136): note: Siehe vorherige Definition von "I2C_GetNumDevices"
+FTCI2C.cpp(73): warning C4273: "I2C_GetNumHiSpeedDevices": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(139): note: Siehe vorherige Definition von "I2C_GetNumHiSpeedDevices"
+FTCI2C.cpp(79): warning C4273: "I2C_GetDeviceNameLocID": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(142): note: Siehe vorherige Definition von "I2C_GetDeviceNameLocID"
+FTCI2C.cpp(85): warning C4273: "I2C_GetHiSpeedDeviceNameLocIDChannel": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(145): note: Siehe vorherige Definition von "I2C_GetHiSpeedDeviceNameLocIDChannel"
+FTCI2C.cpp(91): warning C4273: "I2C_Open": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(148): note: Siehe vorherige Definition von "I2C_Open"
+FTCI2C.cpp(97): warning C4273: "I2C_OpenEx": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(151): note: Siehe vorherige Definition von "I2C_OpenEx"
+FTCI2C.cpp(103): warning C4273: "I2C_OpenHiSpeedDevice": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(154): note: Siehe vorherige Definition von "I2C_OpenHiSpeedDevice"
+FTCI2C.cpp(109): warning C4273: "I2C_GetHiSpeedDeviceType": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(157): note: Siehe vorherige Definition von "I2C_GetHiSpeedDeviceType"
+FTCI2C.cpp(115): warning C4273: "I2C_Close": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(160): note: Siehe vorherige Definition von "I2C_Close"
+FTCI2C.cpp(121): warning C4273: "I2C_CloseDevice": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(172): note: Siehe vorherige Definition von "I2C_CloseDevice"
+FTCI2C.cpp(127): warning C4273: "I2C_InitDevice": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(175): note: Siehe vorherige Definition von "I2C_InitDevice"
+FTCI2C.cpp(133): warning C4273: "I2C_TurnOnDivideByFiveClockingHiSpeedDevice": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(178): note: Siehe vorherige Definition von "I2C_TurnOnDivideByFiveClockingHiSpeedDevice"
+FTCI2C.cpp(139): warning C4273: "I2C_TurnOffDivideByFiveClockingHiSpeedDevice": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(181): note: Siehe vorherige Definition von "I2C_TurnOffDivideByFiveClockingHiSpeedDevice"
+FTCI2C.cpp(145): warning C4273: "I2C_TurnOnThreePhaseDataClockingHiSpeedDevice": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(184): note: Siehe vorherige Definition von "I2C_TurnOnThreePhaseDataClockingHiSpeedDevice"
+FTCI2C.cpp(151): warning C4273: "I2C_TurnOffThreePhaseDataClockingHiSpeedDevice": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(187): note: Siehe vorherige Definition von "I2C_TurnOffThreePhaseDataClockingHiSpeedDevice"
+FTCI2C.cpp(157): warning C4273: "I2C_SetDeviceLatencyTimer": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(190): note: Siehe vorherige Definition von "I2C_SetDeviceLatencyTimer"
+FTCI2C.cpp(163): warning C4273: "I2C_GetDeviceLatencyTimer": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(193): note: Siehe vorherige Definition von "I2C_GetDeviceLatencyTimer"
+FTCI2C.cpp(169): warning C4273: "I2C_GetClock": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(196): note: Siehe vorherige Definition von "I2C_GetClock"
+FTCI2C.cpp(175): warning C4273: "I2C_GetHiSpeedDeviceClock": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(199): note: Siehe vorherige Definition von "I2C_GetHiSpeedDeviceClock"
+FTCI2C.cpp(181): warning C4273: "I2C_SetClock": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(202): note: Siehe vorherige Definition von "I2C_SetClock"
+FTCI2C.cpp(187): warning C4273: "I2C_SetLoopback": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(205): note: Siehe vorherige Definition von "I2C_SetLoopback"
+FTCI2C.cpp(193): warning C4273: "I2C_SetMode": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(208): note: Siehe vorherige Definition von "I2C_SetMode"
+FTCI2C.cpp(199): warning C4273: "I2C_SetGPIOs": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(225): note: Siehe vorherige Definition von "I2C_SetGPIOs"
+FTCI2C.cpp(208): warning C4273: "I2C_SetHiSpeedDeviceGPIOs": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(247): note: Siehe vorherige Definition von "I2C_SetHiSpeedDeviceGPIOs"
+FTCI2C.cpp(216): warning C4273: "I2C_GetGPIOs": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(260): note: Siehe vorherige Definition von "I2C_GetGPIOs"
+FTCI2C.cpp(225): warning C4273: "I2C_GetHiSpeedDeviceGPIOs": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(274): note: Siehe vorherige Definition von "I2C_GetHiSpeedDeviceGPIOs"
+FTCI2C.cpp(236): warning C4273: "I2C_Write": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(295): note: Siehe vorherige Definition von "I2C_Write"
+FTCI2C.cpp(247): warning C4273: "I2C_Read": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(306): note: Siehe vorherige Definition von "I2C_Read"
+FTCI2C.cpp(255): warning C4273: "I2C_GetDllVersion": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(311): note: Siehe vorherige Definition von "I2C_GetDllVersion"
+FTCI2C.cpp(261): warning C4273: "I2C_GetErrorCodeString": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(314): note: Siehe vorherige Definition von "I2C_GetErrorCodeString"
+FTCI2C.cpp(267): warning C4273: "MeineTestFunktion": Inkonsistente DLL-Bindung.
+  \\merkator.local\hund\user\chramas_p\eigene dateien\visual studio 2015\projects\camtool\lft_camtool\ftdi_i2c\ftci2c.h(211): note: Siehe vorherige Definition von "MeineTestFunktion"
+  testklasse.cpp
+  Code wird generiert...
+\\merkator.local\hund\User\Chramas_P\Eigene Dateien\Visual Studio 2015\Projects\Camtool\LFT_CamTool\FTDI_I2C\FTCI2C.cpp : warning C4747: Aufruf von "_DllMain@12" (verwaltet): Verwalteter Code darf nicht unter der Loadersperre, einschließlich des DLL-Einstiegspunkts und Aufrufen, die vom DLL-Einstiegspunkt eingehen, ausgeführt werden.
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+     Bibliothek "\\merkator.local\hund\User\Chramas_P\Eigene Dateien\Visual Studio 2015\Projects\Camtool\LFT_CamTool\Debug\FTCI2C.lib" und Objekt "\\merkator.local\hund\User\Chramas_P\Eigene Dateien\Visual Studio 2015\Projects\Camtool\LFT_CamTool\Debug\FTCI2C.exp" werden erstellt.
   FTDI_I2C.vcxproj -> \\merkator.local\hund\User\Chramas_P\Eigene Dateien\Visual Studio 2015\Projects\Camtool\LFT_CamTool\Debug\FTDI_I2C.dll

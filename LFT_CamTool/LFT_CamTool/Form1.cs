@@ -35,9 +35,10 @@ namespace LFT_CamTool
         private void button_connect_Click(object sender, EventArgs e)
         {
             //  CamControl.GetChannelsI2C();
-            
-               CamControl.TestFunktionen();
-               CamControl.ftdipaskali();
+  
+
+            CamControl.TestFunktionen();
+            CamControl.ftdipaskali();
             CamControl.NET_LIB_OPENBYINDEX();
             // Set_DLLVersionStatus();
             //Get_NumberofDevices();

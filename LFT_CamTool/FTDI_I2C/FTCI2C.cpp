@@ -32,7 +32,7 @@ Revision History:
 #include "ftci2c.h"
 #include "ft2232hmpssei2c.h"
 #include "FTD2XX.H"
-#include "stdafx.h"
+//#include "stdafx.h"
 #include <stdlib.h>
 
 

@@ -72,10 +72,10 @@ BEGIN
             VALUE "CompanyName", "FTDI Ltd."
             VALUE "FileDescription", "I2C emulation DLL for FT4232H, FT2232H and FT2232 devices"
             VALUE "FileVersion", "2, 0, 0, 1"
-            VALUE "InternalName", "FTCI2C"
+            VALUE "InternalName", "FTDI_I2C"
             VALUE "LegalCopyright", "Copyright (C) 2008"
-            VALUE "OriginalFilename", "FTCI2C.dll"
-            VALUE "ProductName", "FTCI2C Dynamic Link Library"
+            VALUE "OriginalFilename", "FTDI_I2C.dll"
+            VALUE "ProductName", "FTDI_I2C Dynamic Link Library"
             VALUE "ProductVersion", "2, 0, 0, 1"
         END
     END
